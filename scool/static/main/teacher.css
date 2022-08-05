@@ -1,0 +1,21 @@
+body{
+    background: aqua;
+}
+
+h1 {
+    text-align: center;
+}
+
+h4 {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+
+}
+
+h4 {
+    tr:nth-child(even)
+    background-color: #dddddd;
+}

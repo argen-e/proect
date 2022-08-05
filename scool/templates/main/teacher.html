@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Class_Work</title>
+    <link rel="stylesheet" href = "{% static 'main/teacher.css' %}">
+</head>
+<body>
+
+<h1>Teacher</h1>
+
+{% for teacher in teachers %}
+<h4>{{teacher.name}}</h4>
+<h4>{{teacher.surname}}</h4>
+<h4>{{teacher.age}}</h4>
+<h4>{{teacher.lesson}}</h4>
+{% endfor %}
+
+</body>
+</html>

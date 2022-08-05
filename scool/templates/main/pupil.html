@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Class</title>
+    <link rel="stylesheet" href = "{% static 'main/pupil.css' %}">
+</head>
+<body>
+<h1>Pupil</h1>
+
+{% for pupil in pupils %}
+<h4>{{pupil.name}}</h4>
+<h4>{{pupil.surname}}</h4>
+<h4>{{pupil.age}}</h4>
+<h4>{{pupil.lesson}}</h4>
+{% endfor %}
+
+
+</body>
+</html>
